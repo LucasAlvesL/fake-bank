@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_USER=admin'
+      - 'MYSQL_PASSWORD=123'
+      - 'MYSQL_DATABASE=fakebank'
+      - 'MYSQL_ROOT_PASSWORD=fakebank'
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
