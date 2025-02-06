@@ -70,7 +70,7 @@ POST /api/v1/users/auth/login
 ```json
 {
     "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJqd3RfaXNzdWVyIiwic3ViIjoiYTJjYjI5OTMtMGJmOS00Zjc3LTllNTEtNmRmMDZlODUxOTc2Iiwicm9sZXMiOlsiVVNFUiJdLCJleHAiOjE3Mzg4NTAwMzN9.hyl0FftfBwamXNZcOwQer-Kq-VqPNqynpIMP1aCCqiI",
-    "expires_in": 1738850033230
+    "expires_in": 1738850033230 // Milliseconds generation
 }
 ```
 
