@@ -4,13 +4,13 @@
 This is a fake banking REST API built using **Spring Boot**, **Spring Security**, **Spring Validation**, **JWT Authentication**, **Swagger**, **Spring Docker**, and **MySQL**. The API allows users to register, log in, and make transactions between accounts securely using the `@Transactional` annotation.
 
 ## Technologies Used
-- **Spring Boot** - Framework for building the application
-- **Spring Security** - Secures the API
-- **Spring Validation** - Validates request inputs
-- **Spring Docker** - Containerization
-- **JWT Auth** - Secure authentication mechanism
-- **Swagger** - API documentation
-- **MySQL** - Database for storing user and transaction data
+- **Spring Boot**
+- **Spring Security**
+- **Spring Validation**
+- **Spring Docker**
+- **JWT Authentication**
+- **Swagger**
+- **MySQL**
 
 ## Features
 - **User Registration & Login**
