@@ -115,7 +115,7 @@ spring.jpa.hibernate.ddl-auto=update
 Once the application is running, access the API documentation at:
 ```
 http://localhost:8080/swagger-ui/index.html
-
+```
 ![Image](https://github.com/user-attachments/assets/15cf1ddb-59ee-462c-8bcb-841b227dc7ad)
 
 ## Security & Transactions
