@@ -19,6 +19,10 @@ This is a fake banking REST API built using **Spring Boot**, **Spring Security**
 - **API Documentation with Swagger**
 - **Docker Support for Deployment**
 
+## Security & Transactions
+- **Spring Security & JWT**: Ensures that only authenticated users can perform transactions.
+- **@Transactional**: Ensures that transactions are atomic and rollback in case of failure.
+
 ## API Endpoints
 
 ### Authentication
@@ -117,10 +121,6 @@ Once the application is running, access the API documentation at:
 http://localhost:8080/swagger-ui/index.html
 ```
 ![Image](https://github.com/user-attachments/assets/15cf1ddb-59ee-462c-8bcb-841b227dc7ad)
-
-## Security & Transactions
-- **Spring Security & JWT**: Ensures that only authenticated users can perform transactions.
-- **@Transactional**: Ensures that transactions are atomic and rollback in case of failure.
 
 ## Conclusion
 This fake bank REST API demonstrates a fully functional banking system with secure authentication, transaction management, and Docker deployment.
